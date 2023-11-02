@@ -207,7 +207,6 @@ a {
     margin-right: 15px;
     padding: 10px 20px;
     text-decoration: none;
-    border: 1px solid #0078D4; /* Warna border tombol */
     color: #0078D4; /* Warna teks tombol */
     border-radius: 5px;
     transition: background-color 0.2s;
