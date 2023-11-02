@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0078D4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Gaya Link */
+.link-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: #0078D4; /* Warna teks tautan */
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.link-list a:hover {
+    color: #005a9e; /* Warna teks tautan saat dihover */
+}
+
+
+a {
+    color: #0078D4;
+    text-decoration: none;
+}
+
+/* Gaya Skill */
+#skill {
+    margin-top: 20px;
+    display: flex;
+}
+
+.skill-column {
+    flex: 1;
+    padding: 10px;
+}
+
+.skill-column h3 {
+    color: #0078D4; /* Warna teks judul kolom */
+}
+
+.skill-item {
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background: #f4f4f4; /* Warna latar belakang bar */
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.skill-fill {
+    background: #0078D4; /* Warna bar yang diisi */
+    height: 100%;
+    border-radius: 5px;
+    color: #fff; /* Warna teks di dalam bar */
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+}
+
+.skill-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.skill-list li {
+    margin-bottom: 5px;
+}
+
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: #0078D4; /* Warna garis timeline */
+    top: 0;
+    bottom: 0;
+    left: 50%; /* Letakkan garis di tengah */
+    transform: translateX(-50%);
+}
+
+.timeline li {
+    margin-bottom: 20px;
+    padding-left: 20px; /* Jarak antara garis dan konten */
+    position: relative;
+}
+
+.timeline li::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #0078D4; /* Warna titik waktu */
+    border-radius: 50%;
+    left: -5px; /* Posisi titik waktu relatif terhadap konten */
+    top: 50%; /* Posisi titik waktu di tengah konten */
+    transform: translateY(-50%);
+}
+
+.timeline-content {
+    background: #f4f4f4; /* Warna latar belakang konten */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-content h3 {
+    color: #0078D4; /* Warna teks judul */
+    margin-top: 0;
+}
+
+.timeline-content p {
+    margin: 0;
+}
+
+/* Gaya card projek */
+.projek-card {
+    display: flex;
+    background: #f4f4f4; /* Warna latar belakang card projek */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projek-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.projek-content h3 {
+    color: #0078D4; /* Warna teks judul projek */
+    margin-top: 0;
+}
+
+.projek-content p {
+    margin: 0;
+}
+
+/* Gaya tombol Publikasi */
+.publikasi-buttons a {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #0078D4; /* Warna border tombol */
+    color: #0078D4; /* Warna teks tombol */
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.publikasi-buttons a:hover {
+    background-color: #0078D4; /* Warna latar belakang saat tombol dihover */
+    color: #fff; /* Warna teks saat tombol dihover */
+}
+
+.download-button {
+    background: #fff; /* Warna latar belakang tombol "Download PDF" */
+}
+
+.google-drive-button {
+    background: #f4f4f4; /* Warna latar belakang tombol "Google Drive" */
+}
+
+.lihat-button {
+    background: #f8f8f8; /* Warna latar belakang tombol "Lihat" */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
