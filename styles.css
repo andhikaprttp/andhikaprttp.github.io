@@ -213,7 +213,6 @@ a {
 }
 
 .publikasi-buttons a:hover {
-    background-color: #0078D4; /* Warna latar belakang saat tombol dihover */
     color: #fff; /* Warna teks saat tombol dihover */
 }
 
