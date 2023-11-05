@@ -73,7 +73,6 @@ h2 {
     color: #005a9e; /* Warna teks tautan saat dihover */
 }
 
-
 a {
     color: #202020;
     text-decoration: none;
@@ -125,7 +124,6 @@ a {
     margin-bottom: 5px;
 }
 
-
 .timeline {
     list-style: none;
     padding: 0;
@@ -133,7 +131,7 @@ a {
 }
 
 .timeline::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 2px;
     background: #202020; /* Warna garis timeline */
@@ -150,7 +148,7 @@ a {
 }
 
 .timeline li::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 10px;
     height: 10px;
@@ -226,8 +224,6 @@ a {
 .lihat-button {
     background: #f8f8f8; /* Warna latar belakang tombol "Lihat" */
 }
-
-
 
 footer {
     text-align: center;
