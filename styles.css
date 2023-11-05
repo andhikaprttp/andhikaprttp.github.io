@@ -225,6 +225,10 @@ a {
     background: #f8f8f8; /* Warna latar belakang tombol "Lihat" */
 }
 
+.link-list a {
+  color:#2d2d2d;
+}
+
 footer {
     text-align: center;
     padding: 10px;
