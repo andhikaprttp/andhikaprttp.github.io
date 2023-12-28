@@ -74,11 +74,12 @@ h2 {
 }
 
 a {
-    color: #202020;
+    color: #005a9e;
     text-decoration: none;
 }
 
-/* Gaya Skill */
+
+
 #skill {
     margin-top: 20px;
     display: flex;
