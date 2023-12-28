@@ -51,7 +51,6 @@ h2 {
     color: #333;
 }
 
-/* Gaya Link */
 .link-list {
     list-style: none;
     margin: 0;
@@ -64,7 +63,7 @@ h2 {
 
 .link-list a {
     text-decoration: none;
-    color: #0030; /* Warna teks tautan */
+    color: #0030; 
     font-weight: bold;
     transition: color 0.2s;
 }
@@ -135,16 +134,16 @@ a {
     content: "";
     position: absolute;
     width: 2px;
-    background: #202020; /* Warna garis timeline */
+    background: #202020;
     top: 0;
     bottom: 0;
-    left: 50%; /* Letakkan garis di tengah */
+    left: 50%; 
     transform: translateX(-50%);
 }
 
 .timeline li {
     margin-bottom: 20px;
-    padding-left: 20px; /* Jarak antara garis dan konten */
+    padding-left: 20px;
     position: relative;
 }
 
@@ -153,22 +152,22 @@ a {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: #2d2d2d; /* Warna titik waktu */
+    background: #2d2d2d; 
     border-radius: 50%;
-    left: -5px; /* Posisi titik waktu relatif terhadap konten */
-    top: 50%; /* Posisi titik waktu di tengah konten */
+    left: -5px; 
+    top: 50%; 
     transform: translateY(-50%);
 }
 
 .timeline-content {
-    background: #f4f4f4; /* Warna latar belakang konten */
+    background: #f4f4f4; 
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .timeline-content h3 {
-    color: #2d2d2d; /* Warna teks judul */
+    color: #2d2d2d; 
     margin-top: 0;
 }
 
@@ -176,10 +175,9 @@ a {
     margin: 0;
 }
 
-/* Gaya card projek */
 .projek-card {
     display: flex;
-    background: #f4f4f4; /* Warna latar belakang card projek */
+    background: #f4f4f4; 
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -191,7 +189,7 @@ a {
 }
 
 .projek-content h3 {
-    color: #333; /* Warna teks judul projek */
+    color: #333; 
     margin-top: 0;
 }
 
@@ -199,31 +197,31 @@ a {
     margin: 0;
 }
 
-/* Gaya tombol Publikasi */
+
 .publikasi-buttons a {
     display: inline-block;
     margin-right: 15px;
     padding: 10px 20px;
     text-decoration: none;
-    color: #2d2d2d; /* Warna teks tombol */
+    color: #2d2d2d; 
     border-radius: 5px;
     transition: background-color 0.2s;
 }
 
 .publikasi-buttons a:hover {
-    color: #fff; /* Warna teks saat tombol dihover */
+    color: #fff; 
 }
 
 .download-button {
-    background: #fff; /* Warna latar belakang tombol "Download PDF" */
+    background: #fff;
 }
 
 .google-drive-button {
-    background: #f4f4f4; /* Warna latar belakang tombol "Google Drive" */
+    background: #f4f4f4; 
 }
 
 .lihat-button {
-    background: #f8f8f8; /* Warna latar belakang tombol "Lihat" */
+    background: #f8f8f8; 
 }
 
 .link-list a {
