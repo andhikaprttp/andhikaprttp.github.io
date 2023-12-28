@@ -30,7 +30,7 @@ nav li {
 }
 
 nav a {
-    color: #202020;
+    color: #005a9e;
 }
 
 .container {
@@ -63,7 +63,7 @@ h2 {
 
 .link-list a {
     text-decoration: none;
-    color: #0030; 
+    color: #005a9e; 
     font-weight: bold;
     transition: color 0.2s;
 }
