@@ -1,0 +1,80 @@
+# Instalasi Debian 11 (CLI)
+
+![Gambar Login Debian 11](https://cdn.hashnode.com/res/hashnode/image/upload/v1708081815273/a4619d96-d524-46c3-a688-c52446bceb1b.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+
+Pada kali saya akan membagikan langkah langkah instalasi Linux Debian 11 pada VirtualBox.
+
+
+## Apa itu Debian
+Debian adalah salah satu distro (Varian) dari Linux dibuat oleh Ian Murdock dan nama Debian sendiri diambil dari nama kombinasi Ian serta mantan kekasihnya yaitu Debra (Deb Ian).
+
+Debian merupakan salah satu distro yang banyak menjadi dasar dari banyak distro lain seperti Ubuntu , Kali Linux , Edubuntu, Kubuntu dan lain sebagai nya. Debian terkenal atas kestabilannya dan keamanannya. nama nama yang digunakan pada rilis versi debian menggunakan nama nama dari tokoh pada film Toy Story (Buzz , Rex, Bo, Hamm, Buster, Bullseye dll).
+
+website resmi debian : [Debian](https://www.debian.org/)
+
+## Apa itu VirtualBox
+VirtualBox adalah software untuk Virtualisasi sistem operasi, kita dapat menginstall beberapa sistem operasi yang berbeda dalam satu perangkat jadi kita bisa menjalankan beberapa sistem operasi pada 1 laptop.
+
+website resmi VirtualBox : [VirtualBox](https://www.virtualbox.org/)
+
+## Bahan Bahan
+Sebelum melakukan Instalasi Debian 11 pada VirtualBox kita harus memiliki file iso dari Debian 11.
+
+File ISO Debian 11 ([Debian](https://www.debian.org/releases/bullseye/ ))
+
+Software VirtualBox ( [Virtualbox](https://www.virtualbox.org/wiki/Downloads ))
+
+Namun saya kali ini tidak akan menjelaskan langkah langkah melakukan instalasi VirtualBox saya asumsikan pada komputer anda sudah terinstall VirtualBox, jika belum anda dapat mengikuti panduan disini [Instalasi VirtualBox](https://andhikapratamap.hashnode.dev/tutorial-instalasi-virtualbox)
+
+## Tahapan Pembuatan Virtual Machine (VM)
+Pada tahap ini kita mulai melakukan proses instalasi Debian 11 CLI dengan menggunakan software virtualisasi menggunakan VirtualBox.
+
+Buka software VirtualBox pada laptop anda.
+![Logo VirtualBox](https://cdn.hashnode.com/res/hashnode/image/upload/v1708063723004/ea771280-6a5f-430f-8fee-d1e1382a8ae1.jpeg?auto=compress,format&format=webp)
+
+Maka tampilan awal pada saat anda baru menjalakan VirtualBox akan seperti ini 
+![Tampilan home Virtualbox](https://cdn.hashnode.com/res/hashnode/image/upload/v1708064048540/eae4df05-9bab-4a9d-b1b6-43d89870df9b.png?auto=compress,format&format=webp)
+
+Lalu untuk membuat sistem operasi virtual, tekan tombol **New** lalu anda akan melihat pop up seperti ini.
+
+![Pop up konfigurasi](https://cdn.hashnode.com/res/hashnode/image/upload/v1708064241398/07d44cff-8e9e-4ba3-a89b-ae2a8e0c2ff7.png?auto=compress,format&format=webp)
+
+Pada tahap diatas kita diminta memasukan nama dan jenis sistem operasi kita, berikut penjelasaannya :
+
+- Name : digunakan untuk memberi nama virtual mesin pada VirtualBox
+
+- Folder : digunakan untuk memberi tahu letak dimana anda akan menyimpan file virtual mesin (biarkan default)
+
+- ISO Image : tempat untuk file ISO kita
+
+- Type : digunakan untuk jenis sistem operasi
+
+- Version : untuk versi sistem operasi yang akan digunakan.
+
+![Setup VM](https://cdn.hashnode.com/res/hashnode/image/upload/v1708064635524/7de4104a-1d0f-4466-837f-0986e4e511d3.png?auto=compress,format&format=webp)
+
+> pastikan pada ISO Image anda memasukan sesuai lokasi file ISO anda
+
+Konfigurasi yang saya lakukan seperti gambar diatas. Jika sudah klik **Next**
+
+![Setup ram ](https://cdn.hashnode.com/res/hashnode/image/upload/v1708064806892/64e402fa-f772-4c79-9838-07607c902848.png?auto=compress,format&format=webp)
+
+Pada tahap ini anda harus melakukan konfigurasi untuk berapa ram dan prosesor yang akan digunakan untuk sistem operasi virtual anda pada tahap ini tergantung spesifikasi perangkat karena disini saya menggunakan
+
+Laptop dengan ram 4096 / 4GB dengan begitu saya akan mengalokasikan ram untuk Debian 11 sebesar 1 GB atau 1024 MB dan prosesor 1 saja, anda dapat melakukan konfigurasi sesuai spesifikasi perangkat anda asal masih berada pada bar hijau jangan sampai melewati batas hijau ke merah selanjutnya anda dapat mengklik **Next**.
+
+![Setup alokasi hardisk virtual](https://cdn.hashnode.com/res/hashnode/image/upload/v1708066266099/03b9a3b9-a236-43df-8c90-7b918fcc854c.png?auto=compress,format&format=webp) 
+
+Pada tahap ini kita diharuskan menentukan alokasi untuk Virtual harddisk yang akan digunakan pada sistem operasi virtual kita secara default pada saat kita menginstall Debian 11 alokasi harddisknya sebesar 20 GB, **klik Next** .
+
+![Summary](https://cdn.hashnode.com/res/hashnode/image/upload/v1708067156898/2f5547e6-11a4-4b6f-8b40-39f35b87d45c.png?auto=compress,format&format=webp)
+
+Lalu anda akan melihat bahwa proses konfigurasi pada virtual mesin kita sudah selesai pada tahap ini kita klik **Finish** .
+
+![Final Setup VM](https://cdn.hashnode.com/res/hashnode/image/upload/v1708067271096/9b64f9a1-c710-44ec-baa2-f57cef674f4a.png?auto=compress,format&format=webp)
+
+Pada tahap ini kita sudah mempunyai sistem operasi virtual, untuk menjalankan kita menggunakan tombol Start .
+
+## Instalasi Debian 11
+![Menu Instalasi Debian 11](https://cdn.hashnode.com/res/hashnode/image/upload/v1708067629937/16debd29-9de7-438a-ade0-44d358bc2df8.png?auto=compress,format&format=webp)
+
